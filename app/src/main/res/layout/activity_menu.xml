@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/emailGonderme"
+        android:textStyle="bold"
+        android:text="Email Olusturma ve Gonderme Islemi"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+    />
+    <Button
+        android:id="@+id/kullaniciList"
+        android:textStyle="bold"
+        android:text="Kullanici Listeleme"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:id="@+id/sensorScreen"
+        android:textStyle="bold"
+        android:text="Sensor Ekrani"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:id="@+id/settingScreen"
+        android:textStyle="bold"
+        android:text="Ayarlar Ekrani"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+        />
+
+
+</LinearLayout>

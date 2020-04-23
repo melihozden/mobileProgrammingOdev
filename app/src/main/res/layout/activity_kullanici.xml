@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Kullanıcı Adı Bilgisi-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kullaniciAdi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+
+        />
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <!--Cinsiyet Bilgisi-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cinsiyet"
+        android:layout_marginLeft="20dp"
+
+        />
+    <Switch
+        android:id="@+id/genderSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <!--Boy Bilgisi-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boy"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/boy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <!--Kilo Bilgisi-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kilo"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/kilo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <!--Yas Bilgisi-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yas"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/yas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+    <!--Uygulama Modu Bilgisi (Dark/Light)-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uygulamaModu"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <!--
+    <RadioGroup
+        android:id="@+id/appMode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/pink_out_line"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/search2"
+            android:background="@drawable/toggle_widget_background"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/offer2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Dark"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+    -->
+
+    <!-- App Mode -->
+
+    <Switch
+        android:id="@+id/appModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/saveShared"
+        android:text="Save to Shared Preference"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+        />
+
+</LinearLayout>

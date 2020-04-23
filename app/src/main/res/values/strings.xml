@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- App Name   -->
+    <string name="app_name">Mobile Programming Work 1</string>
+
+    <!-- activity_main.xml   -->
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+    <string name="username_string2"></string>
+    <string name="password_string2"></string>
+    <string name="rights">Melih Özden - 19574003</string>
+
+    <!-- email_activity.xml   -->
+    <string name="email_string">To</string>
+    <string name="topic_string">Topic</string>
+    <string name="description_string">Description</string>
+    <string name="file_upload">Upload</string>
+
+    <!-- activity_kullanici_list.xml   -->
+    <string name="kullaniciList">Kullanici Listesi</string>
+
+
+    <!-- activity_kullanici.xml   -->
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="uygulamaModu">Uygulama Modu</string>
+    <string name="kullaniciAdi">Kullanici Adi</string>
+    <string name="boy">Boy</string>
+    <string name="kilo">Kilo</string>
+    <string name="yas">Yas</string>
+
+
+
+
+</resources>

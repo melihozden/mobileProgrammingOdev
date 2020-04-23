@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_string"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/emailTo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/topic_string"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_string"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/fileUploadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_upload"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <Button
+        android:id="@+id/fileUploadButton"
+        android:text="Upload"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/loginshapebutton"
+        android:drawableLeft="@drawable/upload"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginshapebutton"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>
